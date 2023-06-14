@@ -22,21 +22,21 @@ function Accordion() {
           console.log(e);
           return (
             <div className="accordion">
-              <div className=" acoridio_header" onClick={handlClick} key={e.id}>
-                <h2>{e.title}</h2>
+              <div className=" acoridion_que" onClick={handlClick} key={e.id}>
+                <h2>{e.que}</h2>
                 {open ? <p>× </p> : <p>+</p>}
               </div>
 
               {open ? (
-                <div className="accordion_body">
-                  <p>{e.desc}</p>
+                <div className="accordion_ans">
+                  <p>{e.ans}</p>
                 </div>
               ) : null}
             </div>
           );
         })}
         <div className="text">
-          <p className="para">
+          <p className="com-line">
             Ready to watch? Enter your email to create or restart your
             membership.
           </p>

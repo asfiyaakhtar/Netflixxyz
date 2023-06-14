@@ -36,8 +36,8 @@ function Footer() {
 
       <div className="optionBtn1">
         <select className="btn">
-          <option value="English">English</option>
-          <option value="Hindi">Hindi</option>
+          <option value="English">🌐English</option>
+          <option value="Hindi">🌐Hindi</option>
         </select>
       </div>
       <div className="copytright">
